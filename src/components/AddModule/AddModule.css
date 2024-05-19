@@ -1,0 +1,41 @@
+.addModule{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.module-input{
+    margin-bottom: 7px;
+    border-radius: 5px;
+    padding: 7px 5px;
+    border: 1px dotted black;
+}
+
+.btn{
+    align-self: flex-end;
+}
+
+.module-submit-btn{
+    font-size:medium;
+    font-weight: 600;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.module-submit-btn.cancel{
+    background-color: rgb(216, 216, 216);
+}
+
+h4{
+    font-weight: 650;
+    padding-bottom: 30px;
+}
+
+span{
+    font-size: 1em;
+    font-weight: 500;
+}
